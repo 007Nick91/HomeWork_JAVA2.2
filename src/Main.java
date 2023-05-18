@@ -8,10 +8,8 @@ public class Main {
         } else {
             bonusOne = 0;
         }
-        int bonusTwo = 0;
-        if (payment < 1100) ;
         int one = payment / 100;
-        int two = bonusOne * one + bonusTwo;
+        int two = bonusOne * one;
         int end = two + account;
         System.out.println("Итог:" + end);
     }
